@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform, TextInput, View, Text } from 'react-native';
+import { TextInput, View, Text } from 'react-native';
 
 const Input = ({ label, value, onChangeText, placeholder }) => {
   const { inputStyle, labelStyle, containerStyle } = styles;
@@ -15,7 +15,7 @@ const Input = ({ label, value, onChangeText, placeholder }) => {
         style={inputStyle}
       />
     </View>
-  )
+  );
 };
 
 const styles = {
